@@ -40,7 +40,7 @@ export const ContactsPage = ({contacts, addContact}) => {
       <section>
         <h2>Add Contact</h2> 
         <ContactForm name={name} phone={phone} email={email} 
-        setName={setName} setPhone={setPhone} setEmail={setEmail} onHandleSubmit={handleSubmit}/>
+        setName={setName} setPhone={setPhone} setEmail={setEmail} handleSubmit={handleSubmit}/>
       </section>
       <hr />
       <section>
