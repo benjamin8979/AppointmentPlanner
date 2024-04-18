@@ -22,7 +22,7 @@ export const ContactsPage = ({contacts, addContact}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add contact info and clear data if the contact name is not a duplicate
-    if (!duplicateCheck(e)) {
+    if (name && !duplicateCheck(e)) {
       addContact(name, phone, email);
       setName("");
       setPhone("");

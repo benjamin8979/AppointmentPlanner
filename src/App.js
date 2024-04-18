@@ -16,6 +16,7 @@ const addContact = (name, phone, email) => {
     phone: phone,
     email: email
   };
+
   setContacts((prev) => [...prev, contactInfo]);
 }
 

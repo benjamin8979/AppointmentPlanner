@@ -7,7 +7,7 @@ export const TileList = ({items}) => {
         <ul>
           {
             items.map((item) =>
-              <li><Tile name={item.name} description={item.description}/></li>
+              <li><Tile name={item.name} description={item}/></li>
             )
           }
         </ul>
